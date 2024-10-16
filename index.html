@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cources</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+               <img src="src\logo.1.jpeg">
+            </div>
+
+            <div class="search-container">
+                <form action="/search" method="GET">
+                    <input type="text" placeholder="Search for courses..." name="search">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <ul>
+                <li> 
+                    <a href="index.html">Landing Page</a>
+                    <a>About Us</a> 
+                    <a>Contact</a>  
+                </li>
+                <li>
+                    <a>Courses</a>
+                    <ul class="dropdown">
+                        <li><a>Web Development</a></li>
+                        <li><a>DSA</a></li>
+                        <li><a>Machine Learning</a></li>   
+                        <li><a>Cloud Computing</a></li>
+                        <li><a>App Development</a></li>
+                        <li><a>Desining</a></li>        
+                    </ul>         
+                </li>
+                
+            </ul>
+        </nav>
+
+        <div class="main">
+            <div class="mainText">
+                <h2>Pathshala</h2>
+                <h1 class="top">Big Offer 50% Off</h1>
+                <h1>On All Cources</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi</p>
+                 <a href="register.html"><button >Register Now</button></a>
+            </div>
+            <img src="src\photo.1-removebg-preview.png" alt="">
+        </div>
+
+    
+        <div class="carousel">
+            <div class="list">
+                <div class="item">
+                    <img src="src\sl.4.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="src/sl.1.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="src/sl.2.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="src/sl.3.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="src/sl.4.jpeg" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>      
+        <div class="rev-section">
+
+            <h2 class="title">Student's Review</h2>
+            <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laboriosam possimus perferendis non error neque.</p>
+            
+            <div class="reviews">
+            
+            <div class="review">
+               <div class="head-review">
+                  <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" width="250px">
+               </div>
+               <div class="body-review">
+                  <div class="name-review">Shivi</div>
+                  <div class="place-review">Gorakhpur</div>
+                  <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                  </div>
+                  <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+               </div>
+            </div>
+            <div class="review">
+               <div class="head-review">
+                  <img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" width="250px">
+               </div>
+               <div class="body-review">
+                  <div class="name-review">Jhanvi</div>
+                  <div class="place-review">Kanpur</div>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                  </div>
+                  <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+               </div>
+            </div>
+            <div class="review">
+               <div class="head-review">
+                  <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" width="250px">
+               </div>
+               <div class="body-review">
+                  <div class="name-review">Anant</div>
+                  <div class="place-review">Ghaziabad</div>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                  </div>
+                  <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+               </div>
+            </div>
+            
+            </div>
+            
+            </div>
+
+
+             <div class="rate">
+                <h1>Rate Us</h1>
+             </div>
+            <div class="wrapper">
+              <p id="message">Rate Your Experience</p>
+              <div class="con">
+                <div class="star-container inactive">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="number">1</span>
+                </div>
+                <div class="star-container inactive">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="number">2</span>
+                </div>
+                <div class="star-container inactive">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="number">3</span>
+                </div>
+                <div class="star-container inactive">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="number">4</span>
+                </div>
+                <div class="star-container inactive">
+                  <i class="fa-regular fa-star"></i>
+                  <span class="number">5</span>
+                </div>
+              </div>
+              <div class="textarea">
+                <textarea cols="30" placeholder="Describe your experience.."></textarea>
+              </div>
+              <button id="submit">Submit</button>
+            </div>
+       
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>
